@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLib</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/mbr.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <div class="page">
+        <header class="site-header" id="top">
+            <div class="header-flex container">
+                <div class="website-header">
+                    <img class="logo" src="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/mbr.png" alt="Logo">
+                    <span class="website-name">QuickLib</span>
+                </div>
+
+                <i class="fa-solid fa-bars menu-icon" id="menuIcon" aria-label="Menu" aria-expanded="false"></i>
+
+                <nav class="nav">
+                    <div class="nav-links" id="menu">
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+
+                    <button class="call-to-action" onclick="window.location.href='#pricing'">Start Now!</button>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="section hero">
+                <div class="container hero-grid">
+                    <div class="hero-text">
+                        <h1><strong>Read more. Carry less.</strong></h1>
+                        <p class="para">
+                            Explore a library-style collection of ebooks you can read instantly or download for offline use.
+                            Keep everything organized with favorites, categories, and quick search.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <button class="btn" onclick="window.location.href='#pricing'">Sign Up</button>
+                            <button class="btn" onclick="window.location.href='#features'">Learn More</button>
+                        </div>
+                    </div>
+
+                    <img class="hero-image" src="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/books.jpg" alt="hero image">
+                </div>
+            </section>
+
+            <section class="section" id="features">
+                <div class="container ">
+                    <h2>Our Features</h2>
+                    <p class="section-sub">Everything you need to browse, read, and organize your ebooks.</p>
+
+                    <div class="card-row">
+                        <div class="card">
+                            <img src="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/search-feature.jpg" alt="search feature image">
+                            <h3>Smart Search & Filters</h3>
+                            <p>Find books fast with keyword search, genres, and quick filters like author, popularity, or newest additions.</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/download-feature.jpg" alt="download feature image">
+                            <h3>Download for Offline Use</h3>
+                            <p>Open any ebook instantly in your browser, or download it to your device for offline reading anytime.</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/bookshelf-feature.jpg" alt="favorite feature image">
+                            <h3>Add Books to Favorites</h3>
+                            <p>Save books to your library, mark favorites, and keep a clean “Want to Read / Reading / Finished” list so you always know what's next.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="pricing">
+                <div class="container">
+                    <h2>Pricing Plans</h2>
+                    <p class="section-sub">Pick a plan that fits how you read.</p>
+
+                    <div class="card-row">
+                        <div class="card price-card">
+                            <div class="banner">
+                                <h3>Free</h3>
+                                <p class="price">$0/month</p>
+                            </div>
+
+                            <div class="price-content">
+                                <p class="sub-text">The perfect plan for casual readers who want to try the library and read a few books.</p>
+                                <ul class="points">
+                                    <li>1 device</li>
+                                    <li>Read online with standard reader settings</li>
+                                    <li>Save up to 10 books to your Favorites/Library</li>
+                                </ul>
+
+                                <button class="btn get-plan">View Plan</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card price-card">
+                            <div class="banner">
+                                <h3>Plus</h3>
+                                <p class="price">$10/month</p>
+                            </div>
+
+                            <div class="price-content">
+                                <p class="sub-text">The best plan for regular readers who want offline downloads and better organization.</p>
+                            
+                                <ul class="points">
+                                    <li>5 devices</li>
+                                    <li>Offline downloads for reading anytime</li>
+                                    <li>Unlimited Favorites/Library saves</li>
+                                </ul>
+
+                                <button class="btn get-plan">View Plan</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card price-card">
+                            <div class="banner">
+                                <h3>Premium</h3>
+                                <p class="price">$30/month</p>
+                            </div>
+
+                            <div class="price-content">
+                                <p class="sub-text">The most powerful plan for power readers who want the best experience and extra personalization.</p>
+                            
+                                <ul class="points">
+                                    <li>Unlimited devices</li>
+                                    <li>Everything in Plus</li>
+                                    <li>Advanced filters (author, length, rating/newest) + faster search</li>
+                                </ul>
+
+                                <button class="btn get-plan">View Plan</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="services">
+                <div class="container services-grid">
+                    <div class="plans-container">
+                        <h2>Subscriptions</h2>
+                        <p class="section-sub">Choose a plan that fits your reading style.</p>
+
+                        <div class="cards-row" id="plans-row">
+
+                        </div>
+                    </div>
+
+                    <div class="addons-container">
+                        <h2>Add-Ons</h2>
+                        <p class="section-sub">Customize your experience with optional extras.</p>
+
+                        <div class="cards-row" id="addons-row">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="testimonials">
+                <div class="container">
+                    <h2>Testimonials</h2>
+                    <div class="card-row">
+                        <div class="card">
+                            <p class="t-text">I found my next favorite book in minutes, and the offline downloads are a lifesaver on trips.</p>
+                            <p class="t-name">Jennifer J. Omalley</p>
+                        </div>
+
+                        <div class="card">
+                            <p class="t-text">The search and categories make it feel like a real library, but way faster.</p>
+                            <p class="t-name">Christian T. Jackson</p>
+                        </div>
+
+                        <div class="card">
+                            <p class="t-text">I love the bookshelf lists—'Want to Read' keeps me organized and actually reading.</p>
+                            <p class="t-name">Connie L. Raymond</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="faq">
+                <div class="container">
+                    <h2>FAQ</h2>
+
+                    <div class="faq">
+                        <div class="faq-item">
+                            <h3>How do I download an e-book for offline reading?</h3>
+                            <p>Open a book's page and click Download. Once it's saved, you can access it anytime from your Library/Downloads section.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>What file types do you support?</h3>
+                            <p>We support common e-book formats like PDF and EPUB (and more can be added later). If a book isn't supported, you'll still be able to view its details and choose an alternate version if available.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>Do I need an account to start reading?</h3>
+                            <p>No—Free users can browse and read online right away. Creating an account lets you save favorites, track reading lists, and sync your library across devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-flex">
+                <div class="footer-left">
+                    <div class="website-footer">
+                        <img class="logo" src="https://raw.githubusercontent.com/Djames32/quicklib/main/assets/images/mbr.png" alt="Logo">
+                        <span class="website-name">QuickLib</span>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="links">
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                    <div class="top-link">
+                        <a href="#top">Back to top</a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright 2026 QuickLib - All Rights Reserved</p>
+        </footer>
+    </div>
+
+
+    <style>
+    :root {
+        --header-footer: #2C2416;
+        --hero: #F5EDD6;
+        --features: #EDE0CA;
+        --pricing: #3B5249;
+        --services: #F0E8D5;
+        --testimonials: #C8784A;
+        --faq: #4A3728;
+        --accent-cta: #C8784A;
+        --cta-hover: #d4895a;
+        --secondary-button: #C8784A;
+        --secondary-button-hover: #d4895a;    
+        --hover-text: #bebebe;  
+        --accent: #0D7377;          
+        --accent2: #0f8f94;       
+        --accent3: #0f172a;  
+        --border: #D7D9D4;          
+        --radius: 16px;
+        --max: 2000px;
+    }
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .section {
+        padding: 64px 0;
+    }
+
+    main {
+        margin: 0;
+    }
+    
+    .hero {background: var(--hero);}
+    #features {background: var(--features);}
+    #pricing {background: var(--pricing);}
+    #services {background: var(--services);}
+    #testimonials {background: var(--testimonials); color: var(--hero);}
+    #faq {background: var(--faq); color: var(--hero);}
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #testimonials p, #testimonials h2,
+    #faq p, #faq h2, #faq .faq-item h3 {
+        color: var(--hero);
+    }
+
+    #pricing p,
+    #pricing .points li {
+        color: black;
+    }
+
+    #pricing .price, #pricing h2, #pricing .section-sub{
+        color: var(--hero);
+    }
+
+    .hero-text .para {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        font-size: 58px;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+
+    .call-to-action {
+        background: var(--accent-cta);
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: var(--radius);
+        margin-left: 16px;
+    }
+
+    button, .call-to-action, .btn {
+        cursor: pointer;
+        padding: 16px 32px;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+    }
+
+    .btn {
+        border-radius: var(--radius);
+        background-color: var(--secondary-button);
+        color: #fff;
+        margin: 16px;
+    }
+
+    .call-to-action:hover {
+        background-color: var(--cta-hover);
+    }
+
+    .btn:hover {
+        background-color: var(--secondary-button-hover);
+    }
+
+    .page {
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .header-flex {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-icon {
+        display: none;
+        font-size: 26px;
+        cursor: pointer;
+        padding: 10px;
+        color: var(--hero);
+    }
+
+    .menu-icon:hover {
+        color: var(--hover-text);
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+    }
+
+    #features h2, #features .section-sub,
+     #pricing h2, #pricing .section-sub,
+     #testimonials h2, #testimonials p, #faq h2 {
+        text-align: center;
+    }
+
+    #features .section-sub,  #pricing .section-sub {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    #features h2, #pricing h2, #testimonials h2, #faq h2 {
+        font-size: 64px;
+    }
+
+    .card-row {
+        display: flex;
+    }
+
+    #features .card img {
+        width: 100%;
+        display: block;
+        border-radius: var(--radius);
+        border: 6px solid black;
+    }
+
+    #features .card-row, #pricing .card-row {
+        justify-content: center;
+        gap: 32px;
+        flex-wrap: wrap;
+        margin-top: 48px;
+    }
+
+    #features .card {
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #features .section-sub, #pricing .section-sub {
+        font-size: 22px;
+    }
+
+    #features .card h3 {
+        font-size: 32px;
+    }
+
+    #features .card p, #pricing .card p {
+        font-size: 18px;
+    }
+
+    #pricing .points {
+        text-align: left;
+        padding-left: 28px;
+    }
+
+    #pricing .points li {
+        margin-bottom: 24px;
+    }
+
+    #pricing .card {
+        max-width: 400px;
+        width: 100%;
+        padding: 32px 64px;
+        border-radius: var(--radius);
+    }
+
+    .price-card .price {
+        margin-top: 16px;
+        font-size: 32px;
+        color: #fff;
+    }
+
+    #pricing .card.price-card {
+        background: #2a3d35;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .banner {
+        width: 100%;
+        background: #2a3d35;
+        color: var(--hero);
+        padding: 16px;
+        border-radius: var(--radius) var(--radius) 0 0;
+        margin-bottom: 24px;
+    }
+
+    .banner h3 {
+        font-size: 28px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .banner .price {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .price-content {
+        background: white;
+        width: 100%;
+        padding: 0 15%;
+        padding-top: 24px;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    
+    
+    #pricing .price-content .sub-text, #pricing .price-content {
+        font-size: 24px
+    }
+
+    #pricing .price-card {
+        position: relative;
+    }
+
+    #pricing .price-content {
+        padding-bottom: 90px;
+    }
+
+
+    #pricing .get-plan {
+        position: absolute;
+        bottom: 24px;
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin: 0 auto;    
+        background: var(--accent);
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: var(--radius);
+    }
+
+    #pricing .get-plan:hover {
+        background-color: var(--accent2);
+    }
+
+    #services .container.services-grid {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 48px;
+    }
+
+    #services .cards-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    #services .service-card{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        border: 1px solid var(--border);
+        background: #2a3d35;
+        color: #fff;
+        border-radius: var(--radius);
+        padding: 16px;
+        text-align: left;
+    }
+
+    #services .service-card p {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #services .service-card h3 {
+        margin: 0 0 12px;
+        min-height: 48px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .plans-container h2, .addons-container h2 {
+        font-size: 48px;
+    }
+
+    .plans-container .section-sub, .addons-container .section-sub {
+        font-size: 22px;
+        margin-bottom: 32px;
+    }
+
+    .plans-container, .addons-container {
+        text-align: center;
+    }
+
+    #testimonials .card-row {
+        justify-content: center;
+        gap: 28px;
+        flex-wrap: wrap;
+    }
+
+    #testimonials .card {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .t-text {
+        font-size: 28px;
+        font-style: italic;
+    }
+
+    .t-name {
+        font-size: 18px;
+        margin-top: 16px;
+        font-weight: 600;
+    }
+
+    #faq .faq{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-item {
+        max-width: 800px;
+        margin-bottom: 80px;
+    }
+
+    .faq-item h3 {
+        font-size: 32px;
+    }
+
+
+    .faq-item h3, .faq-item p {
+        text-align: left;
+    }
+
+    .faq-item p {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .website-header, .website-footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: var(--max);
+        width: 95%;
+    }
+
+    .site-footer, .site-header {
+        background: var(--header-footer);
+        color: #fff;
+        padding: 24px 0;
+    }
+
+    .site-footer p {
+        text-align: center;
+        margin-top: 10px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .logo {
+        height: 40px;
+        width: auto;
+        display: block;
+    }
+
+    .website-name {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .hero-grid {
+        display: grid;
+        grid-template-columns: 0.6fr 1.4fr;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: block;
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+        margin-top: 25px;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links a {
+        margin-left: 24px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-links {
+        display: flex;
+    }
+    
+    .footer-links a:hover, .nav-links a:hover {
+        color: var(--hover-text);
+    }
+
+    .footer-links a {
+        margin-left: 24px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #services .services-btn {
+        background: var(--accent);
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: var(--radius);
+        margin-top: 16px;
+    }
+
+    #services .service-card .services-btn {
+        margin-top: auto;   
+        margin-left: 0;   
+        margin-right: 0;   
+        margin-bottom: 0;     
+        width: fit-content;
+    } 
+
+    #services .services-btn:hover {
+        background-color: var(--accent2);
+    }
+
+    #services .services-btn:disabled {
+        background: grey;
+        color: black;
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    #services .services-btn:disabled:hover {
+        background: grey;
+    }
+    
+    .menu-icon {
+        margin-left: auto;
+    }
+
+    @media (max-width: 820px){
+        .menu-icon {
+            display: block;
+            margin-left: auto;
+        }
+
+      .hero-grid{ 
+            grid-template-columns: 1fr; 
+        }
+
+        #services .container.services-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .nav-links{
+            display:none;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            margin-top: 12px;
+
+            width: 90vw;
+            background-color: var(--header-footer);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 18px;
+        }
+
+        .nav .call-to-action {
+            display: none;
+        }
+
+        .nav-links.active {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .links {
+            display: none;
+        }
+
+        .footer-flex {
+            justify-content: center;
+        }
+    }
+    </style>
+
+    <script>
+        const servicesUrl = "/api";
+        const menu = document.querySelector('#menu');
+        const menuIcon = document.querySelector('#menuIcon');
+
+        menuIcon.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            const open = menu.classList.contains('active');
+            menuIcon.setAttribute('aria-expanded', open);
+
+            menuIcon.classList.toggle('fa-bars', !open);
+            menuIcon.classList.toggle('fa-xmark', open);
+        });
+
+        async function getServices() {
+            try {
+                const response = await fetch(servicesUrl);
+
+                const data = await response.json();
+
+                const plansRow = document.getElementById('plans-row');
+                const addonsRow = document.getElementById('addons-row');
+                
+                plansRow.innerHTML = '';
+                addonsRow.innerHTML = '';
+
+                for (let item of data.services) {
+                    const card = document.createElement("div");
+                    card.classList.add("service-card");
+
+                    card.innerHTML = `
+                        <h3>${item.title}</h3>
+                        <p><strong>$${item.price}</strong> / ${item.billing}</p>
+                        <p><strong>${item.type}</strong></p>
+                        <button class="btn services-btn">
+                            Get ${item.type === "add-on" ? "Add-On" : "Plan"}
+                        </button>`;
+
+                    if (item.type === "add-on") {
+                        addonsRow.appendChild(card);
+                    } else {
+                        plansRow.appendChild(card);
+                    }
+
+                    
+                }
+            } catch (err) {
+                console.error("Error fetching data:", err);
+            }
+        }
+
+        getServices();
+    </script>
+
+</body>
+</html>
